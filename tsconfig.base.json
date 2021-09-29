@@ -15,6 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@nx-poc/auth": ["libs/auth/src/index.ts"],
+      "@nx-poc/form": ["libs/form/src/index.ts"],
+      "@nx-poc/material": ["libs/material/src/index.ts"],
       "@nx-poc/types": ["libs/types/src/index.ts"]
     }
   },

@@ -27,6 +27,9 @@
     ]
   },
   "projects": {
+    "auth": {
+      "tags": []
+    },
     "demo": {
       "tags": []
     },
@@ -35,6 +38,12 @@
       "implicitDependencies": ["demo"]
     },
     "express-api": {
+      "tags": []
+    },
+    "form": {
+      "tags": []
+    },
+    "material": {
       "tags": []
     },
     "types": {

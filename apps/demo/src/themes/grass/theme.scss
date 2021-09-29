@@ -1,0 +1,15 @@
+@use '~@angular/material' as mat;
+@use 'colors';
+@use '../shared/app-theme';
+@use '../shared/custom';
+
+$primary: mat.define-palette(colors.$grass-primary-palette);
+$secondary: mat.define-palette(colors.$grass-secondary-palette);
+$theme: mat.define-light-theme((
+  color: (
+    primary: $primary,
+    accent: $secondary
+  )
+));
+
+@include app-theme.theme($theme);
